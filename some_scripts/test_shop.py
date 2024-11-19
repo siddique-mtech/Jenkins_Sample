@@ -1,5 +1,7 @@
 import pytest
 
+print ("This is Jenkins traning, I am from test_shop")
+
 @pytest.mark.fruits
 def test_apple():
    print ("This is Apple function")
