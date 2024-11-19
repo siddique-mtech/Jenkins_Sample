@@ -1,6 +1,6 @@
 import pytest
 
-print ("This is Jenkins traning, I am from test_school.py")
+print ("This is Jenkins traning, I am from test_mymath.py")
 
 @pytest.mark.logical
 def test_and():
