@@ -1,4 +1,4 @@
-mport pytest
+import pytest
 
 @pytest.mark.arithemetic
 def test_mul():
