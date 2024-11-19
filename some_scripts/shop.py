@@ -1,17 +1,17 @@
 import pytest
 
-@pytest.mark.logical
-def test_and():
-   print ("This is and function")
+@pytest.mark.fruits
+def test_apple():
+   print ("This is Apple function")
 
-@pytest.mark.logical
-def test_or():
-   print ("This is and function")
+@pytest.mark.fruits
+def test_banana():
+   print ("This is Banana function")
 
-@pytest.mark.arithemetic
-def test_add():
+@pytest.mark.veg
+def test_carrot():
     print ("This is ADD function")
   
-@pytest.mark.arithemetic
-def test_divide():
+@pytest.mark.veg
+def test_beetroote():
     print ("This is DIVIDE function")
