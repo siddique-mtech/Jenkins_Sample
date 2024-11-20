@@ -1,5 +1,4 @@
 import pytest
-import logging
 
 @pytest.mark.fruits
 def test_apple():
@@ -11,8 +10,8 @@ def test_banana():
 
 @pytest.mark.veg
 def test_carrot():
-    logging.info("This is ADD function")
+    logging.info("This is Carrot function")
   
 @pytest.mark.veg
 def test_beetroote():
-    logging.info("This is DIVIDE function")
+    logging.info("This is Beetroote function")
